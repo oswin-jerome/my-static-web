@@ -4,6 +4,6 @@ h1 {
     font-size: 300%;
 }
 
-body {
-    background-color: lightblue;
+#headerdiv{
+    background-color:blue;
 }
