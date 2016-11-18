@@ -2,7 +2,8 @@ div.divc p {
     color: red;
     font-family: verdana;
     font-size: 300%;
-vertical-align: middle
+vertical-align: middle;
+align-items: center;
 }
 
 #headerdiv{
