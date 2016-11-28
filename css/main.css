@@ -23,16 +23,7 @@ a{
    width: 100%; /* for IE 6 */
 }
 
-.image h2 { 
-   position: absolute; 
-   top: 150px; 
-   left: 350px; 
-   width: 100%;
-	font:Sans-serif;
-	font-size:50px;
-	font-style:bold;
-	color:#cc00ff;
-}
+
 .image qw{
 	
 }
@@ -229,16 +220,7 @@ body{
 	
 
 }
-.image h2 { 
-   position: absolute; 
-   top: 80px; 
-   left: 60px; 
-   width: 100%;
-	font:Sans-serif;
-	font-size:30px;
-	font-style:bold;
-	color:#cc00ff;
-}
+
 .pro_db_img{
 	width:120px;
 	padding-left:120px;
