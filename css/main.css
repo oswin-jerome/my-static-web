@@ -90,8 +90,8 @@ a{
 	padding-left:220px;
 }
 
-.mainContainer .post1 article{
-
+.mainContainer .post1 article a img{
+ 
 }
 .mainContainer .post1 article p{
  font-family:Arial;
@@ -127,6 +127,15 @@ margin-top:-20px;
 	
 	
 
+}
+
+.fb_img{
+	width:20px;
+	margin-right:10px;
+}
+.g_img{
+	width:20px;
+	margin-right:10px;
 }
 
 .bottom span{
