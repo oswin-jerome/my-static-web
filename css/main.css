@@ -18,6 +18,24 @@ a{
 	width:100%;
 	height:auto;
 }
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.image h2 { 
+   position: absolute; 
+   top: 100px; 
+   left: 200px; 
+   width: 100%;
+	font:Sans-serif;
+	font-size:50px;
+	font-style:bold;
+	color:#ffffff;
+}
+.image qw{
+	
+}
 .mainHeader nav{
 	background-color:#333333;
 	border-radius:8px;
@@ -118,6 +136,12 @@ footer{
 footer h3{
 	padding-top:15px;
 }
+
+
+
+
+
+
 
 @media only screen and (max-width: 400px){
 
