@@ -6,6 +6,8 @@ body{
 	font-family:Arial;
 	font-size:18px;
 	margin: 0% 10%;
+	float:false;
+	
 }
 
 a{
@@ -41,34 +43,143 @@ a{
 	background-color:#999999;
 	
 }
+.mainContainer{
+	margin-top:10px;
+	width:100%;
+	height:400px;
+
+	
+}
 
 .mainContainer .post1{
-	width:70%;
 	float:left;
 	background-color:#999999;
 	border-radius:6px;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
+	padding:10px;
+	width:70%;
+}
+.mainContainer .post1 article{
+
+}
+.mainContainer .post1 article p{
+ font-family:Arial;
+ font-style:normal;
+ font-size:18px;
+ text-align:justify;
+ text-indent:5px;
+
 }
 
-.mainContainer .post1 .post1Header{
-	background-color:#333333;
-	margin-top:-22px;
-	border-radius:6px 6px 0px 0px ;
+
+.mainContainer .post1 .post1Header{;
 	-moz-border-radius:6px 6px 0px 0px ;
 	-webkit-border-radius:6px 6px 0px 0px ;
-	
+	color:#ffffff;
+	margin-top:-20px;
+}
 
+.mainContainer .sidebar header{
+color:#ffffff;
+margin-top:-20px;
+}
+.mainContainer .sidebar {
+	background-color:#999999;
+	width:24%;
+	float:right;
+	border-radius:6px 6px 6px 6px ;
+	-moz-border-radius:6px 6px 6px 6px ;
+	-webkit-border-radius:6px 6px 6px 6px ;
+	margin-left:16px;
+	margin-right:0px;
+	padding:6px;
+	
+	
 
 }
 
+.bottom span{
+	background-color:#333333;
+	width:100%;
+	float:bottom;
+	position:absolute;
+	
+}
+
+footer{
+	background-color:#333333;
+	margin-top:10px;
+	height:50px;
+	text-align:center;
 
 
-
-
-
-
+}
+footer h3{
+	padding-top:15px;
+}
 
 @media only screen and (max-width: 400px){
 
+body{
+	color:#000305;
+	font-family:Arial;
+	font-size:18px;
+	margin: 0% 0%;
+	float:false;
+	
+}
+.mainHeader img{
+	width:100%;
+	height:200px;
+}
+.mainHeader nav{
+	background-color:#333333;
+	border-radius:8px;
+}
+.mainHeader nav ul{
+	list-style-type:none;
+	padding-left:0px;
+	
+}
+.mainContainer .post1{
+	padding:0px;
+	width:100%;
+	
+}
+.mainContainer .post1 article{
+
+}
+.mainContainer .post1 article p{
+ font-family:Arial;
+ font-style:normal;
+ font-size:18px;
+ text-align:justify;
+ text-indent:5px;
+ padding:8px;
+
+}
+
+
+.mainContainer .post1 .post1Header{;
+	-moz-border-radius:6px 6px 0px 0px ;
+	-webkit-border-radius:6px 6px 0px 0px ;
+	color:#ffffff;
+	margin-top:-20px;
+	padding: 8px 0px 0px 8px;
+}
+.mainContainer .sidebar {
+	background-color:#999999;
+	width:24%;
+	float:right;
+	border-radius:6px 6px 6px 6px ;
+	-moz-border-radius:6px 6px 6px 6px ;
+	-webkit-border-radius:6px 6px 6px 6px ;
+	margin-left:16px;
+	margin-right:0px;
+	padding:6px;
+	display:none;
+	
+
+}
 }
