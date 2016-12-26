@@ -78,7 +78,7 @@ body{
 .container{
     background-color: #d2d2d2;
     width: 72%;
-    height:1200px;
+    height:500px;
     float: right;
     margin-top: 20px;
     margin-bottom:30px;
@@ -119,15 +119,6 @@ body{
     margin-right: 40px;
     
 }
-
-.sc_cont{
-    margin-top: 40px;
-}
-.sc{
-    margin: auto 10px;
-    
-}
-
 @media only screen and (max-width: 500px){
     
  .navigation{
@@ -173,7 +164,7 @@ body{
  .container{
     background-color: #d2d2d2;
     width: 95%;
-    height:800px;
+    height:500px;
     float: right;
     margin-top: 20px;
     margin-bottom:30px;

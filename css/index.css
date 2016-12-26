@@ -15,11 +15,13 @@ body{
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    
                 
 }
 .navigation nav{
     text-align: center;
     padding-top: 4px;
+    
 }
 .navigation nav ul li{
     display: inline;
@@ -78,7 +80,7 @@ body{
 .container{
     background-color: #d2d2d2;
     width: 72%;
-    height:1200px;
+    height:500px;
     float: right;
     margin-top: 20px;
     margin-bottom:30px;
@@ -87,9 +89,10 @@ body{
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
+
 .container h1{
-    text-align: center;
     color: #d800ff;
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -103,6 +106,7 @@ body{
     color: white;
 }
 
+
 .projects {
     margin-left: 20px;
 }
@@ -112,21 +116,9 @@ body{
 .projects img{
     width: 200px;
 }
-.pro_det{
-    float: right;
-    clear: both;
-    width:40%;
-    margin-right: 40px;
-    
-}
 
-.sc_cont{
-    margin-top: 40px;
-}
-.sc{
-    margin: auto 10px;
-    
-}
+
+
 
 @media only screen and (max-width: 500px){
     
@@ -173,7 +165,7 @@ body{
  .container{
     background-color: #d2d2d2;
     width: 95%;
-    height:800px;
+    height:500px;
     float: right;
     margin-top: 20px;
     margin-bottom:30px;
@@ -183,15 +175,5 @@ body{
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
- .projects img{
-    width: 100px;
-}
-.pro_det{
-    float: none;
-    clear: both;
-    width:auto;
     
-    margin-right: 40px;
-    
-}   
 }
