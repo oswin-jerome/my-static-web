@@ -78,7 +78,7 @@ body{
 .container{
     background-color: #d2d2d2;
     width: 72%;
-    height:900px;
+    height:500px;
     float: right;
     margin-top: 20px;
     margin-bottom:30px;
@@ -111,18 +111,21 @@ body{
 
 .projects img{
     width: 200px;
-    
-}
-
-.projects button{
-    width: 200px;
-    height: 65px;
-    
 }
 .pro_det{
     float: right;
-    width: 75%;
-    margin-top: 100px;
+    clear: both;
+    width:40%;
+    margin-right: 40px;
+    
+}
+
+.sc_cont{
+    margin-top: 40px;
+}
+.sc{
+    margin: auto 10px;
+    
 }
 
 @media only screen and (max-width: 500px){
@@ -170,7 +173,7 @@ body{
  .container{
     background-color: #d2d2d2;
     width: 95%;
-    height:700px;
+    height:800px;
     float: right;
     margin-top: 20px;
     margin-bottom:30px;
@@ -182,17 +185,13 @@ body{
 }
  .projects img{
     width: 100px;
-    
-}
-
-.projects button{
-    width: 100px;
-    height: 35px;
-    
 }
 .pro_det{
     float: none;
-    width: 75%;
-    margin-top: 10px;
+    clear: both;
+    width:auto;
+    
+    margin-right: 40px;
+    
 }   
 }
